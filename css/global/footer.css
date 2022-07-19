@@ -4,10 +4,14 @@
 
 .footer-container {
   display: grid;
-  grid-template-columns: 3fr 5fr 4fr;
+  grid-template-columns: 3fr 3fr 3fr;
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.img {
+  margin-left: 100px;
 }
 
 .footer-contato h3 {
@@ -41,7 +45,7 @@
 }
 
 .footer-informacoes li {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .footer-redes {
@@ -60,6 +64,7 @@
 .footer-copy {
   grid-column: 1/-1;
   margin-top: 40px;
+  margin-left: 100px;
 }
 
 @media (max-width: 800px) {
