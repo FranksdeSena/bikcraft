@@ -65,7 +65,9 @@
 @media (max-width: 800px) {
   img {
     display: none;
+    
   }
+
   .footer-container {
     grid-template-columns: 1fr 1fr;
   }
